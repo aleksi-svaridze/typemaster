@@ -1,9 +1,10 @@
-
+import { BtnOrange, BtnBlue } from "./components/Btn";
 
 const App = () => {
   return (
     <div className="App">
-      Hello
+      <BtnOrange textContent='Pre-order now' />
+      <BtnBlue textContent='Pre-order now' />
     </div>
   );
 }
