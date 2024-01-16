@@ -1,0 +1,24 @@
+.btn {
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn__blue {
+    background: #E8EFF2;
+    color: #162542;
+    transition: all .2s;
+}
+.btn__blue:hover {
+    background: #162542;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        width: 175px;
+        height: 58px;
+    }
+}
