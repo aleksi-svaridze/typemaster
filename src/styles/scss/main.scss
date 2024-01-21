@@ -1,6 +1,10 @@
+// Basic Settings
 @import './vars';
 @import './colors';
 @import './font-typography';
+
+// Styles for Section Layout
+@import './sections/footer';
 
 .page-wrapper {
    
