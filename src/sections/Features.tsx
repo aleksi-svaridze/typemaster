@@ -27,8 +27,8 @@ const FeaturesSection = () => {
                             <p className="text-blue-light fw-medium fs-6 mb-0 features__paragraph">Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.</p>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-3">
-                        <div className='text-center text-md-start'>
+                    <div className="col-12 col-md-6 col-lg-3"> 
+                        <div className='text-center text-md-start pb-3 pb-md-4 pb-lg-0'>
                             <img src={BatteryLogo} alt="" className="mb-md-3 mb-lg-0 features__icon" />
 
                             <h2 className="pb-4 pt-5 mb-0 pt-md-4 text-uppercase features__heading text-blue-dark">HIGH CAPACITY BATTERY</h2>
