@@ -7,12 +7,12 @@ const AboutSection = () => {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-5 col-sm-5 col-md-4 col-lg-3 bg-danger px-lg-0">
-                        <img src={AboutImageSmall} alt="" className='about__image about__image--small rounded-4 d-block ms-auto' />
+                    <div className="col-4 pe-0 col-sm-5 col-md-4 col-lg-3 bg-danger d-flex position-relative">
+                        <img src={AboutImageSmall} alt="" className='about__image about__image--small rounded-4' />
                     </div>
 
-                    <div className="col-7 col-sm-7 col-md-8 col-lg-6 bg-primary">
-                        <img src={AboutImageBig} alt="" className='about__image about__image--big rounded-4 ms-0 ms-md-auto ms-lg-0 d-block' />
+                    <div className="col-8 col-sm-7 col-md-8 col-lg-6 bg-primary d-flex justify-content-end justify-content-lg-start">
+                        <img src={AboutImageBig} alt="" className='about__image about__image--big rounded-4' />
                     </div>
 
                     <div className="col-12 col-lg-3 d-lg-flex flex-column justify-content-center">
