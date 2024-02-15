@@ -1,33 +1,82 @@
-.about__heading {
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 900;
+.about {
+    padding-bottom: 111px;
+    padding-top: 23px;
 
-    // width: 200px;
-    // margin-left: auto;
-    // margin-right: auto;
+    &__heading {
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 900;
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 22px;
+        margin-top: 74px;
+    
+        @media screen and (min-width: 768px){
+            margin-left: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        @media screen and (min-width: 992px){
+            max-width: 100%;
+            margin-bottom: 27px;
+        }
+    }
 
-    // @media screen and (min-width: 768px){
-    //     margin-left: 0;
-    // }
-    // @media screen and (min-width: 992px){
-    //     margin-right: 0;
-    //     margin-left: auto;
-    // }
+    &__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        @media screen and (min-width: 768px){
+            max-width: 100%;
+            margin-left: 0;
+        }
+    }
+
+
+    @media screen and (min-width: 768px){
+        padding-bottom: 141px;
+        padding-top: 40px;
+    }
+
+    @media screen and (min-width: 992px){
+        padding-bottom: 168px;
+        padding-top: 30px;
+    }
 }
 
-.about__paragraph {
-    // max-width: 310px;
-    // margin-left: auto;
-    // margin-right: auto;
+.about__image {
 
-    // @media screen and (min-width: 768px){
-    //     max-width: 100%;
-    //     margin-left: 0;
-    // }
-    // @media screen and (min-width: 992px){
-    //     max-width: 200px;
-    //     margin-right: 0;
-    //     margin-left: auto;
-    // }
+    &--small {
+        width: 129px;
+        height: 193px;
+
+        @media screen and (min-width: 768px){
+            width: 214px;
+            height: 320px;
+        }
+
+        @media screen and (min-width: 992px){
+            width: 255px;
+            height: 480px;
+        }
+    }
+
+    &--big {
+        width: 220px;
+        height: 193px;
+
+        @media screen and (min-width: 768px){
+            width: 445px;
+            height: 320px;
+        }
+
+        @media screen and (min-width: 992px){
+            width: 445px;
+            height: 480px;
+        }
+    }
 }
