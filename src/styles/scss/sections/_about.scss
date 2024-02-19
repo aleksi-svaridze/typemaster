@@ -66,11 +66,14 @@
         margin-left: -16px;
         width: 37%;
 
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 576px){
             background-image: url(../../images/about_md_small.png);
             height: 320px;
-            width: 100%;
+        }
+
+        @media screen and (min-width: 768px){
             margin-left: 0;
+            width: 100%;
         }
 
         @media screen and (min-width: 992px){
@@ -84,7 +87,7 @@
         background-image: url(../../images/about_extra_big.png);
         width: 100%;
 
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 576px){
             background-image: url(../../images/about_md_big.png);
             height: 320px;
         }
