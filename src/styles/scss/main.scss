@@ -10,9 +10,13 @@
 @import './sections/footer';
 @import './sections/features';
 @import './sections/about';
+@import './sections/hero';
 
 .page-wrapper {
    
+}
+.tm-xxl-container {
+    max-width: 1440px;
 }
 .tm-container {
     max-width: 1110px;

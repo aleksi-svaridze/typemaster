@@ -3,11 +3,11 @@ import Logo from "../images/logo.svg";
 
 const HeaderSection = () => {
     return(
-        <div className="tm-container pt-md-3 pt-lg-2">
+        <div className="tm-container pt-md-3 pt-lg-2 pb-5">
           <div className="container">
             <header className="d-flex justify-content-between align-items-center mt-4 mt-lg-5">
               <img src={Logo} alt="" style={logoStyles.logo} />
-              <Btn textContent='Pre-order now' />
+              <Btn textContent='Pre-order now' btnBg="btn__blue" />
             </header>
           </div>
         </div>

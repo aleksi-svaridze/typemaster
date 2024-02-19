@@ -1,3 +1,5 @@
 export type BtnPropsType = {
-    textContent: string
+    textContent: string,
+    btnColor?: string,
+    btnBg?: string
 }
