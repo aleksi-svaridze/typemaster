@@ -7,6 +7,7 @@
 }
 
 .hero {
+    overflow: hidden;
 
     &__heading {
         font-size: 48px;
@@ -32,10 +33,22 @@
         background-repeat: no-repeat;
         background-size: cover;
 
+        &--small {
+            margin-top: 64px;
+            margin-left: auto;
+            margin-right: -15px;
+            border-radius: 20px 0 0 20px;
+
+            @media screen and (min-width: 576px){
+                margin-right: -125px;
+            }
+        }
+        
+
         @media screen and (min-width: 768px){
             background-image: url(../../images/hero_md.jpg);
             background-position: 0% -80px;
-            
+    
             border-radius: 20px 0 0 20px;
             height: 425px;
             margin-right: -150px;
@@ -45,7 +58,11 @@
             background-position: 0%;
             border-radius: 20px;
             height: 480px;
-            width: 100%;
+            margin-right: 0;
         }
+    }
+
+    @media screen and (min-width: 1200px){
+        overflow: initial;
     }
 }
