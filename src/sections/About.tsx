@@ -8,10 +8,14 @@ const AboutSection = () => {
             <div className="tm-container about position-relative">
                 <div className="container">
                     <div className="row">
-                        <div className="about__image about__image-small--bg rounded-4 d-md-none position-absolute start-0"></div>
-                        <div className="col-8 offset-4 d-block d-md-none">
+                        {/* Visible from start to 767px */}
+                        <div className="col-4 col-sm-4 d-block d-md-none">
+                            <div className="about__image about__image-small--bg rounded-4"></div>
+                        </div>
+                        <div className="col-8 col-sm-8 d-block d-md-none">
                             <div className="about__image about__image-big--bg rounded-4"></div>
                         </div>
+
                         {/* Viseble from 768px */}
                         <div className="col-4 col-md-4 col-lg-3 d-none d-md-flex">
                              <div className='about__image about__image-small--bg rounded-4'></div>
