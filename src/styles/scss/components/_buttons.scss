@@ -2,8 +2,8 @@
     height: 48px;
     border-radius: 8px;
     border: none;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 18px;
     transition: all .2s;
 
     &__blue {
@@ -24,6 +24,12 @@
             background: #FF9B62;
             color: #fff;
         }
+    }
+
+    
+    @media screen and (min-width: 375px) {
+        font-size: 16px;
+        line-height: 26px;
     }
 
     @media screen and (min-width: 768px) {
