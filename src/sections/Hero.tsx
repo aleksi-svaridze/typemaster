@@ -15,7 +15,7 @@ const HeroSection = () => {
                   <p className='hero__paragraph fw-medium text-blue-light pe-lg-3 pe-xl-5 my-3 py-3'>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
                   <div className="d-flex pt-1 justify-content-between align-items-center justify-content-md-start">
                     <Btn textContent='Pre-order now' btnBg='btn__orange' />
-                    <Btn textContent='Release on 5/27' btnColor='text-blue-light' />
+                    <p className='text-blue-light my-0 hero__release text-uppercase fw-bolder mx-3'>Release on {new Date().getMonth() + 1}/{new Date().getDate()}</p>
                   </div>
                 </div>
 
